@@ -10,9 +10,7 @@ Cargo.lock
 **/*.rs.bk
 
 # Binaries
-2021/src/*.exe
-2021/src/*.pdb
-2021/target/*
+2021/day*/target/
 
 # VS code
 .vscode/

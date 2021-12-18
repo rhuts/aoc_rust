@@ -1,7 +1,7 @@
-pub fn day01()
+fn main()
 {
     // Part 1 =============================================\
-    let file_name = "input/input_day01.txt";
+    let file_name = "input.txt";
     let mut count = 0;
     let mut prev = 0;
 
@@ -19,7 +19,7 @@ pub fn day01()
 
 
     // Part 2 =============================================\
-    let file_name = "input/input_day01.txt";
+    let file_name = "input.txt";
     let mut count2 = 0;
     let mut q = Vec::new();
 
@@ -51,9 +51,4 @@ pub fn day01()
         count2 += 1;
     }
     println!("Part 2 answer: {}", count2);
-}
-
-fn main()
-{
-    println!("main day01");
 }
